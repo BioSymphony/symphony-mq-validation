@@ -1,0 +1,20 @@
+{
+  "name": "symphony-mq-validation",
+  "interface": {
+    "displayName": "Symphony MQ Validation"
+  },
+  "plugins": [
+    {
+      "name": "symphony-mq-validation",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

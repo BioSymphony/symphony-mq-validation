@@ -1,0 +1,23 @@
+{
+  "name": "symphony-mq-validation",
+  "version": "0.1.0",
+  "description": "Symphony MQ validation skills for public-safe merge-queue and GitHub workflow smoke tests.",
+  "author": {
+    "name": "BioSymphony",
+    "url": "https://github.com/BioSymphony"
+  },
+  "homepage": "https://github.com/BioSymphony/symphony-mq-validation",
+  "repository": "https://github.com/BioSymphony/symphony-mq-validation",
+  "license": "MIT",
+  "keywords": ["merge-queue", "github-actions", "validation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Symphony MQ Validation",
+    "shortDescription": "Merge-queue validation checks",
+    "longDescription": "Public-safe Symphony MQ validation skills for demo branch checks, merge-queue smoke tests, auto-merge label examples, and lightweight GitHub workflow review.",
+    "developerName": "BioSymphony",
+    "category": "Developer Tools",
+    "capabilities": ["Skills"],
+    "defaultPrompt": ["Use $symphony-mq-validation to review a merge-queue validation fixture."]
+  }
+}
