@@ -1,0 +1,4 @@
+interface:
+  display_name: "Symphony MQ Validation"
+  short_description: "Merge-queue validation checks"
+  default_prompt: "Use $symphony-mq-validation to review a merge-queue validation fixture."

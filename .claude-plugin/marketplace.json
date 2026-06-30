@@ -1,0 +1,22 @@
+{
+  "name": "symphony-mq-validation",
+  "owner": {
+    "name": "BioSymphony"
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Public-safe merge-queue and workflow validation skills."
+  },
+  "plugins": [
+    {
+      "name": "symphony-mq-validation",
+      "displayName": "Symphony MQ Validation",
+      "source": "./",
+      "description": "Review public merge-queue validation fixtures.",
+      "category": "developer-tools",
+      "tags": ["merge-queue", "github-actions", "validation"],
+      "strict": false,
+      "skills": ["./skills/symphony-mq-validation"]
+    }
+  ]
+}
